@@ -15,6 +15,7 @@ const products = {
                 "../assets/images/products/beats_black_case.jpg",
                 "../assets/images/products/beats_black_outside.jpg",
               ],
+              variant_id: "4687687685",
             },
             {
               color_name: "navy",
@@ -24,6 +25,7 @@ const products = {
                 "../assets/images/products/beats_navy_case.jpg",
                 "../assets/images/products/beats_navy_outside.jpg",
               ],
+              variant_id: "4687687987",
             },
             {
               color_name: "ivory",
@@ -33,6 +35,7 @@ const products = {
                 "../assets/images/products/beats_ivory_case.jpg",
                 "../assets/images/products/beats_ivory_outside.jpg",
               ],
+              variant_id: "4687687654",
             },
           ],
         },
@@ -56,6 +59,7 @@ const products = {
                 "../assets/images/products/xbox_series_x_black_featured.webp",
                 "../assets/images/products/xbox_series_x_black_includes.jpg",
               ],
+              variant_id: "5687687685",
             },
             {
               color_name: "white",
@@ -64,6 +68,7 @@ const products = {
                 "../assets/images/products/xbox_series_x_featured.webp",
                 "../assets/images/products/xbox_series_x_includes.jpg",
               ],
+              variant_id: "5687687543",
             },
           ],
           sizes: [
@@ -93,6 +98,7 @@ const products = {
                 "../assets/images/products/keurig_open_black.jpg",
                 "../assets/images/products/keurig_home_black.jpg",
               ],
+              variant_id: "6687687685",
             },
             {
               color_name: "oasis",
@@ -102,6 +108,7 @@ const products = {
                 "../assets/images/products/keurig_open_oasis.jpg",
                 "../assets/images/products/keurig_zoom_oasis.jpg",
               ],
+              variant_id: "6687687876",
             },
             {
               color_name: "vintage red",
@@ -111,6 +118,7 @@ const products = {
                 "../assets/images/products/keurig_vintage_red_open.jpg",
                 "../assets/images/products/keurig_vintange_red_home.jpg",
               ],
+              variant_id: "6687687816",
             },
           ],
         },

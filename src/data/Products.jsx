@@ -10,22 +10,34 @@ const products = {
             {
               color_name: "black",
               hex: "#000",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/beats_black_featured.jpg",
+                "../assets/images/products/beats_black_case.jpg",
+                "../assets/images/products/beats_black_outside.jpg",
+              ],
             },
             {
               color_name: "navy",
               hex: "#000042",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/beats_navy_featured.jpg",
+                "../assets/images/products/beats_navy_case.jpg",
+                "../assets/images/products/beats_navy_outside.jpg",
+              ],
             },
             {
               color_name: "ivory",
               hex: "#fffff0",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/beats_ivory_featured.jpg",
+                "../assets/images/products/beats_ivory_case.jpg",
+                "../assets/images/products/beats_ivory_outside.jpg",
+              ],
             },
           ],
         },
       ],
-      featured_image: "https://",
+      featured_image: "../assets/images/products/beats_black_featured.jpg",
       vendor: "Beats",
     },
   ],
@@ -40,12 +52,18 @@ const products = {
             {
               color_name: "black",
               hex: "#000",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/xbox_series_x_black_featured.webp",
+                "../assets/images/products/xbox_series_x_black_includes.jpg",
+              ],
             },
             {
               color_name: "white",
               hex: "#FFF",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/xbox_series_x_featured.webp",
+                "../assets/images/products/xbox_series_x_includes.jpg",
+              ],
             },
           ],
           sizes: [
@@ -70,25 +88,39 @@ const products = {
             {
               color_name: "black",
               hex: "#000",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/keurig_featured_black.jpg",
+                "../assets/images/products/keurig_open_black.jpg",
+                "../assets/images/products/keurig_home_black.jpg",
+              ],
             },
             {
               color_name: "oasis",
               hex: "#92fcff",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/keurig_oasis_featured.jpg",
+                "../assets/images/products/keurig_open_oasis.jpg",
+                "../assets/images/products/keurig_zoom_oasis.jpg",
+              ],
             },
             {
               color_name: "vintage red",
               hex: "#c70000",
-              images: ["https://"],
+              images: [
+                "../assets/images/products/keurig_vintage_red_featured.jpg",
+                "../assets/images/products/keurig_vintage_red_open.jpg",
+                "../assets/images/products/keurig_vintange_red_home.jpg",
+              ],
             },
           ],
         },
       ],
-      featured_image: "https://",
+      featured_image: "../assets/images/products/keurig_featured_black.jpg",
       vendor: "Beats",
     },
   ],
   featured: [{}],
   deals: [{}],
 };
+
+export default products;

@@ -1,7 +1,7 @@
 import React from "react";
 
-const ProductBottom = () => {
-  return <section id="product-bottom">Product Bottom</section>;
+const ProductBottom = ({ variant }) => {
+  return <section id="product-bottom">Product Bottom: {variant}</section>;
 };
 
 export default ProductBottom;

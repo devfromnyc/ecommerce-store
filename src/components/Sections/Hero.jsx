@@ -21,7 +21,11 @@ const Hero = ({ src, alt, title, subtitle, paragraph, isBackground }) => {
       )}
       <div className="position-relative">
         <Heading tag="h1" text={title} classes="" />
-        <Heading tag="h2" text={subtitle} classes="" />
+        <Heading
+          tag="h2"
+          text={subtitle}
+          classes="text-3xl font-bold underline"
+        />
         <p>{paragraph}</p>
       </div>
     </section>

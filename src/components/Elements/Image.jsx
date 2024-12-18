@@ -6,7 +6,7 @@ const Image = ({ src, alt, classes, isBackground, backgroundImage }) => {
       {isBackground === "true" ? (
         <img src={src} alt={alt} className={classes} />
       ) : (
-        <div className={classes} style={src}></div>
+        <div className={classes} style={{ src }}></div>
       )}
     </>
   );
